@@ -12,13 +12,13 @@
     <title>@yield('title')</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="{{url('css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="{{url('css/sb-admin.css')}}" rel="stylesheet">
+    <link href="{{asset('css/sb-admin.css')}}" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="{{url('css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -46,10 +46,10 @@
     </div>
 </div>
 <!-- jQuery -->
-<script src="{{url('js/jquery.js')}}"></script>
+<script src="{{asset('js/jquery.js')}}"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="{{url('js/bootstrap.min.js')}}"></script>
+<script src="{{asset('js/bootstrap.min.js')}}"></script>
 @yield('foot')
 </body>
 </html>
